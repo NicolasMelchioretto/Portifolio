@@ -22,10 +22,10 @@ function App() {
   return (
     <div className="App"  style={{ backgroundColor: '#f9f9f9' }}>
       <Navbar style={{ backgroundColor: '#666' }} expand="lg">
-        <Navbar.Brand href="#home" style={{ color: '#ffffff' }}>Nicolas Melchioretto</Navbar.Brand>
+        <Navbar.Brand href="#home" style={{ color: '#ffffff', marginLeft: '20px' }}>Nicolas Melchioretto</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="mr-auto">
+          <Nav className="mr-auto" style={{ marginLeft: '20px' }}>
             <Nav.Link href="#sobre" style={{ color: '#ffffff' }}>Sobre</Nav.Link>
             <Nav.Link href="#projetos" style={{ color: '#ffffff' }} >Projetos</Nav.Link>
             <Nav.Link href="#contato" style={{ color: '#ffffff' }} >Contato</Nav.Link>
