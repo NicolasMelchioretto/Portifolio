@@ -60,44 +60,42 @@ function App() {
       </Container>
 
       <Container id="contato">
-  <Row>
-    <Col md={6}>
-      <h2>Contato</h2>
-      <p>Telefone: (47) 9967-9454</p>
-      <p>Email: nicolas.melchioretto@gmail.com</p>
-      <Form>
-        <Form.Group controlId="formNome">
-          <Form.Label>Nome</Form.Label>
-          <Form.Control type="text" placeholder="Seu nome" />
-        </Form.Group>
-        <Form.Group controlId="formEmail">
-          <Form.Label>Email</Form.Label>
-          <Form.Control type="email" placeholder="Seu email" />
-        </Form.Group>
-        <Form.Group controlId="formMensagem">
-          <Form.Label>Mensagem</Form.Label>
-          <Form.Control as="textarea" rows={3} />
-        </Form.Group>
-        <Button variant="primary" type="submit">                
-          Enviar
-        </Button>
-      </Form>
-    </Col>
-    <Col md={6} style={{ marginTop: '20px', marginLeft: '20px' }}>
-      <div style={{ backgroundColor: '#ffffff', padding: '20px', border: '1px solid #dddddd' }}>
-        <h2>Redes Sociais</h2>
-        <ul>
-          <li>
-            <a href="https://github.com/NicolasMelchioretto">GitHub</a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/in/nicolas-melchioretto-2a6b31258/">LinkedIn</a>
-          </li>
-        </ul>
-      </div>
-    </Col>
-  </Row>
-</Container>
+        <Row>
+          <Col md={6} style={{ marginLeft: '0px', marginRight: '20px' }}>
+            <h2>Contato</h2>
+            <Form>
+              <Form.Group controlId="formNome">
+                <Form.Label>Nome</Form.Label>
+                <Form.Control type="text" placeholder="Seu nome" />
+              </Form.Group>
+              <Form.Group controlId="formEmail">
+                <Form.Label>Email</Form.Label>
+                <Form.Control type="email" placeholder="Seu email" />
+              </Form.Group>
+              <Form.Group controlId="formMensagem">
+                <Form.Label>Mensagem</Form.Label>
+                <Form.Control as="textarea" rows={3} />
+              </Form.Group>
+              <Button variant="primary" type="submit">                
+                Enviar
+              </Button>
+            </Form>
+          </Col>
+          <Col md={6} style={{ marginTop: '20px', marginLeft: '20px' }}>
+            <div style={{ backgroundColor: '#ffffff', padding: '20px', border: '1px solid #dddddd' }}>
+              <h2>Redes Sociais</h2>
+              <ul>
+                <li>
+                  <a href="https://github.com/NicolasMelchioretto">GitHub</a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/in/nicolas-melchioretto-2a6b31258/">LinkedIn</a>
+                </li>
+              </ul>
+            </div>
+          </Col>
+        </Row>
+      </Container>
 
     </div>
   );
